@@ -1,0 +1,14 @@
+{
+    "name": "bootstrap",
+    "version": "1.0.0",
+    "dependencies": {
+
+    },
+    "scripts": [
+        "js/popper.js",
+        "js/bootstrap.js"
+    ],
+    "styles":[
+        "css/bootstrap.css"
+    ]
+}

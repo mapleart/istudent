@@ -1,0 +1,1 @@
+{function document }{$oDocument=$data['item']}{if $oDocument}{$oScheme = $oDocument->getScheme()}<a href="{$oDocument->getUrlFull()}" class="user-mini">{$oScheme->getName()|escape:'html'}</a>{/if}{/function}

@@ -1,0 +1,58 @@
+/****/
+.role-navbar {
+}
+
+.role-navbar .logo {
+    margin: 10px;
+}
+.role-navbar .main-nav {
+
+}
+
+
+.role-navbar .main-nav .nav-item {
+
+}
+
+.role-navbar .main-nav  > .nav-item > a{
+    color: #fff;
+    line-height: 40px;
+    height: 40px;
+    display: block;
+    border-bottom: 1px solid rgba(13, 88, 200, 0.32);
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+.role-navbar .main-nav .nav-item .nav-trigger {
+    display: none;
+}
+.role-navbar .main-nav .nav-item.open .nav-trigger:before {
+    content: "\f126";
+}
+
+.role-navbar .main-nav .nav-item.open > a{
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: none;
+
+}
+
+
+.role-navbar .main-nav .nav-item .nav-item-sub{
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 10px 10px 25px;
+
+}
+
+
+.role-navbar .main-nav .nav-item .nav-item-sub .active a{
+    color: #0d58c8;
+}
+
+.role-navbar .main-nav .nav-item .nav-item-sub a{
+    line-height: 26px;
+    display: block;
+    color: rgba(255, 255, 255, 0.81);
+    text-decoration: none;
+}
